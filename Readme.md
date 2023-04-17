@@ -91,7 +91,7 @@ git clone https://github.com/Dhimasswara/BE-HIREJOB
 - Go To Folder Repo
 
 ```
-cd restapi-hiring-app-pijarcamp
+cd BE-HIREJOB
 ```
 
 - Install Module
@@ -127,7 +127,7 @@ ORIGIN_DOMAIN
 ## Endpoint List
 
 [![Run in Postman](https://run.pstmn.io/button.svg)]
-<!-- (https://documenter.getpostman.com/view/23292228/2s93RUvsMo) -->
+<!-- (https://documenter.getpostman.com/view/26334344/2s93XyUPKH) -->
 
 <!-- CONTRIBUTING -->
 
