@@ -46,9 +46,9 @@ const findId =(id)=>{
 // AUTHENTICATION
 
 const registerWorker = (data) => {
-  const { id,name,phone,email,password, workplace, jobdesk, address, description, role} = data;
+  const { id,name,phone,email,password, role} = data;
     
-  return Pool.query(`INSERT INTO workers(id_worker,name,email,phone,password,jobdesk,description,address,workplace,role) VALUES('${id}','${name}','${email}','${phone}','${password}','${jobdesk}','${description}','${address}','${workplace}','${role}')`);
+  return Pool.query(`INSERT INTO workers(id_worker,name,email,phone,password,role) VALUES('${id}','${name}','${email}','${phone}','${password}','${role}')`);
 }
 
 const findEmail = (email) => {
