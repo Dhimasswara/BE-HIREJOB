@@ -22,7 +22,7 @@ const {
         const page = Number(req.query.page) || 1;
         const limit = Number(req.query.limit) || 5;
         const offset = (page - 1) * limit;
-        let sortBY = req.query.sortBY || "fullname";
+        let sortBY = req.query.sortBY || "name";
         let sort = req.query.sort || 'ASC';
         let searchParam = req.query.search || "";
         const result = await selectAllRecruiter(limit, offset, searchParam,sortBY,sort);
@@ -61,7 +61,7 @@ const {
 
     updateRecruiter: async (req, res) => {
       const id = req.params.id;
-      const { fullname,phone, position, job_field, city, description_company, instagram, linkedin, company_name, email, image} = req.body;
+      const { name,phone, position, job_field, city, description_company, instagram, linkedin, company_name, email, image} = req.body;
 
       const oldDataResult = await selectRecruiter(id);
       const oldData = oldDataResult.rows[0];
@@ -74,7 +74,7 @@ const {
   
       const data = {
         id,
-        fullname,
+        name,
         phone,
         position,
         job_field,
@@ -129,7 +129,7 @@ const {
 
     registerRecruiter: async (req, res) => {
       try {
-      const { fullname,phone,email,password,position,company_name, role} = req.body;
+      const { name,phone,email,password,position,company_name, role} = req.body;
       const { rowCount } = await findEmail(email);
   
       if (rowCount) return commonHelper.response(res, null, 409, "Email already exist" )
@@ -140,7 +140,7 @@ const {
   
       const data = {
         id,
-        fullname,
+        name,
         email,
         phone,
         position,
