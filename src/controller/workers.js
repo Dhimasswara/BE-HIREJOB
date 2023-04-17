@@ -141,7 +141,7 @@ const workerController = {
   },
 
   registerWorker: async (req, res) => {
-    const { name, phone, email, password, workplace, jobdesk, address, description, role } = req.body;
+    const { name, phone, email, password, role } = req.body;
     const { rowCount } = await findEmail(email);
 
     if (rowCount) return res.json({ message: "Email already exist!" })
@@ -156,10 +156,6 @@ const workerController = {
       phone,
       email,
       password: passwordHash,
-      workplace,
-      jobdesk,
-      address,
-      description,
       role: 'worker'
     }
 
