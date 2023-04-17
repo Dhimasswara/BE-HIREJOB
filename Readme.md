@@ -63,7 +63,6 @@ This is an example of how to list things you need to use the software and how to
 | [Dotenv]        | npm i dotenv        |
 | [CORS]          | npm i cors          |
 | [Eslint]        | npm i eslint        |
-| [Joi]           | npm i joi           |
 | [jsonwebtoken]  | npm i jsonwebtoken  |
 
 [express]: http://expressjs.com
