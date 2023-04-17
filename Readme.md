@@ -63,7 +63,6 @@ This is an example of how to list things you need to use the software and how to
 | [Dotenv]        | npm i dotenv        |
 | [CORS]          | npm i cors          |
 | [Eslint]        | npm i eslint        |
-| [Joi]           | npm i joi           |
 | [jsonwebtoken]  | npm i jsonwebtoken  |
 
 [express]: http://expressjs.com
@@ -91,7 +90,7 @@ git clone https://github.com/Dhimasswara/BE-HIREJOB
 - Go To Folder Repo
 
 ```
-cd restapi-hiring-app-pijarcamp
+cd BE-HIREJOB
 ```
 
 - Install Module
@@ -126,8 +125,8 @@ ORIGIN_DOMAIN
 
 ## Endpoint List
 
-[![Run in Postman](https://run.pstmn.io/button.svg)]
-<!-- (https://documenter.getpostman.com/view/23292228/2s93RUvsMo) -->
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/26334344/2s93XyUPKH)
+
 
 <!-- CONTRIBUTING -->
 
