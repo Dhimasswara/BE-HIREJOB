@@ -7,7 +7,7 @@
   <p align="center">
     <a href="https://github.com/Dhimasswara/BE-HIREJOB"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="-">View Demo</a>
+    <a href="https://be-hirejob.up.railway.app/workers">View Demo</a>
     ·
   </p>
 </p>
@@ -146,7 +146,7 @@ Contributions are what make the open source community such an amazing place to b
 
 :rocket: [`Frontend Peeworld`](https://github.com/Dhimasswara/UI-HIREJOB)
 
-:rocket: [`Demo Peeworld`](https://ui-hirejob.vercel.app)
+:rocket: [`Demo Peeworld`](https://hirejob-kappa.vercel.app/)
 
 <!-- CONTACT -->
 
