@@ -1,7 +1,7 @@
 <br />
 <p align="center">
 <div align="center">
-<img height="150" src="docs\peeworld.png" alt="YuGawe" border="0"/>
+<img height="150" src="docs\logo.png" alt="Peeworld" border="0"/>
 </div>
   <h3 align="center">Backend Peeworld</h3>
   <p align="center">
